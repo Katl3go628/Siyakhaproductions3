@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<title>Contact | Siyakha Productions</title>
+<meta name="description" content="Send an enquiry to Siyakha Productions about technical sound and live staging or print solutions.">
+<meta property="og:title" content="Contact | Siyakha Productions">
+<meta property="og:description" content="Send an enquiry to Siyakha Productions about technical sound and live staging or print solutions.">
+<meta property="og:type" content="website">
+<!-- Add og:url, og:image and a canonical link once the final domain is confirmed -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Siyakha Productions home"><img src="assets/logos/siyakha-logo.jpg" alt="Siyakha Productions logo" width="100" height="56"></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="index.html">Home</a><a href="about.html">About Us</a><a href="technical-sound.html">Technical Sound</a><a href="printing.html">Printing</a><a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn" href="contact.html">Get in touch</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-hero ">
+    <div class="wrap">
+      <h1>Contact us</h1>
+      <p class="lead">Tell us what you need and which division it is for.</p>
+    </div>
+  </section>
+
+  <section class="contact" aria-labelledby="form-title">
+    <div class="wrap">
+      <div class="contact-info">
+        <h2>How to reach us</h2>
+        <dl class="details">
+          <dt>Address</dt><dd>81 Corlett Drive, Birnam / Melrose, Johannesburg</dd>
+          <dt>Phone / WhatsApp</dt><dd><a href="tel:+27677041461">+27 67 704 1461</a></dd>
+          <dt>Email</dt><dd><a href="mailto:info@siyakhaproductions.co.za">info@siyakhaproductions.co.za</a></dd>
+        </dl>
+        <p><a class="btn wa" href="https://wa.me/27677041461?text=Hello%20Siyakha%20Productions%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+        <p>Or use the enquiry form and choose the division your request is for. Include dates, venue or quantities if you have them.</p>
+        <p><a href="technical-sound.html">Technical Sound &amp; Live Staging</a><br><a href="printing.html">Siyakha Print Solutions</a></p>
+      </div>
+      <form id="enquiry-form" class="form" method="post" novalidate data-endpoint="https://formsubmit.co/ajax/info@siyakhaproductions.co.za">
+        <h2 id="form-title">Send an enquiry</h2>
+        <div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-err"><span class="err" id="name-err"></span></div>
+        <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-err"><span class="err" id="email-err"></span></div>
+        <div class="field"><label for="phone">Phone number <span class="opt">(optional)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+        <div class="field"><label for="division">Enquiry about</label>
+          <select id="division" name="division" required aria-describedby="division-err"><option value="">Choose a division</option><option value="sound">Technical Sound &amp; Live Staging</option><option value="print">Siyakha Print Solutions</option><option value="both">Both: Technical Sound &amp; Print Solutions</option></select><span class="err" id="division-err"></span></div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="6" required aria-describedby="message-err"></textarea><span class="err" id="message-err"></span></div>
+        <input type="hidden" name="_subject" value="New website enquiry - Siyakha Productions"><input type="hidden" name="_template" value="table">
+        <div class="hp" aria-hidden="true"><label for="_honey">Leave this empty</label><input id="_honey" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
+        <button class="btn" type="submit">Send enquiry</button>
+        <p class="status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="map" aria-labelledby="map-title">
+    <div class="wrap">
+      <h2 id="map-title">Find us</h2>
+      <p>81 Corlett Drive, Birnam / Melrose, Johannesburg</p>
+      <div class="map-frame">
+        <iframe title="Map showing Siyakha Productions at 81 Corlett Drive, Birnam, Johannesburg" src="https://maps.google.com/maps?q=81+Corlett+Drive,+Birnam,+Johannesburg,+South+Africa&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+      <p class="map-link"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=81+Corlett+Drive,+Birnam,+Johannesburg,+South+Africa" target="_blank" rel="noopener">Open in Google Maps</a></p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <img src="assets/logos/siyakha-logo.jpg" alt="Siyakha Productions logo" width="115" height="64" loading="lazy">
+      <p>Technical sound, live staging and print solutions from one company.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h2>Pages</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="technical-sound.html">Technical Sound</a></li>
+        <li><a href="printing.html">Printing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2>Contact</h2>
+      <address>
+        <p>81 Corlett Drive, Birnam / Melrose, Johannesburg</p>
+        <p><a href="tel:+27677041461">+27 67 704 1461</a><br><a href="mailto:info@siyakhaproductions.co.za">info@siyakhaproductions.co.za</a></p>
+        <p><a href="https://wa.me/27677041461" target="_blank" rel="noopener">Chat on WhatsApp</a> &middot; <a href="contact.html">Send an enquiry</a></p>
+      </address>
+    </div>
+  </div>
+  <div class="wrap legal">&copy; <span id="year">2026</span> Siyakha Productions. All rights reserved.</div>
+</footer>
+<a class="wa-float" href="https://wa.me/27677041461?text=Hello%20Siyakha%20Productions%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noopener" aria-label="Chat with Siyakha Productions on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12.05 21.8a9.9 9.9 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.89 9.88zM20.46 3.49A11.8 11.8 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.9 11.9 0 0 0 5.68 1.45c6.56 0 11.89-5.34 11.9-11.89a11.8 11.8 0 0 0-3.48-8.42z"/></svg><span>WhatsApp</span></a>
+<script src="js/main.js"></script><script src="js/forms.js"></script>
+</body>
+</html>
